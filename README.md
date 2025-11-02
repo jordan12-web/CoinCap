@@ -1,16 +1,28 @@
-# coincap
+📊 CoinCap App
 
-A new Flutter project.
+A Flutter app that displays real-time cryptocurrency prices and detailed info using the CoinCap API.
 
-## Getting Started
+ 🚀 Features
+- Fetches live crypto data using HTTP and Dio
+- Displays selected coins with price and market info
+- Navigates to detail screen for each coin
+- Clean UI with responsive layout
 
-This project is a starting point for a Flutter application.
+ 🛠️ Tech Stack
+- Flutter & Dart
+- Dio for HTTP requests
+- CoinCap public API
 
-A few resources to get you started if this is your first Flutter project:
+ 📸 Screenshots
+<img width="428" height="929" alt="image" src="https://github.com/user-attachments/assets/6f760b59-84c2-49a5-8a55-f23835bacf25" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 🧠 What I Learned
+- Consuming REST APIs with Dio
+- Parsing JSON data
+- Navigating between screens
+- Structuring Flutter apps with separation of logic
+ 📁 How to Run
+```bash
+flutter pub get
+flutter run
